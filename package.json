@@ -1,0 +1,22 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "cv_of_tienpham",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phamtien1709/SaaSTechKids.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phamtien1709/SaaSTechKids/issues"
+  },
+  "homepage": "https://github.com/phamtien1709/SaaSTechKids#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
