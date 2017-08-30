@@ -3,10 +3,27 @@
   <head>
     <meta charset="utf-8">
     <meta viewport="width:device; initial-scale:1;">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Homework Day 1 Module 2</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsivecv.css">
+    <title>Read File Page</title>
   </head>
   <body>
-    <h1>READFILE PAGE</h1>
+    <!-- Menu -->
+    <ul class="menu-ul">
+      <li class="menu-li"><a class="active menu-a" href="home">Home</a></li>
+      <li class="menu-li"><a class="menu-a" href="read">Read File</a></li>
+      <li class="menu-li last-menu-li" style="float:right"><a class="menu-a" href="about">About Me</a></li>
+    </ul>
+    <!-- Menu end -->
+    <hr>
+    <div class="input-box">
+      <h2>Open file to read:</h2><br>
+      <input type="file" id="fileInput">
+    </div>
+    <div class="result-box">
+      <p id="result"></p>
+    </div>
+    <!-- Script tag -->
+    <script src="./js/fileOutputReader.js"></script>
   </body>
 </html>

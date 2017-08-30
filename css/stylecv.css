@@ -1,0 +1,58 @@
+.container {
+    background: #fff;
+    padding: 70px 75px;
+    margin: 50px auto;
+    border: 1px solid #a5d4fc;
+}
+
+img {
+    max-width: 100%
+}
+
+.propic {
+    border-radius: 10px;
+}
+
+hr {
+    margin: 40px 0;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #000;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.3em;
+    background: #fcfcfc;
+    padding: 10px;
+}
+
+p,
+.title-a {
+    line-height: 1.7em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.title-li {
+    padding: 7px 0;
+}
+
+
+
+.social {
+    margin-right: 7px;
+}
+
+footer p{
+    font-size: 18px;
+}
+
+.footer-tab {
+  text-align: center;
+}
