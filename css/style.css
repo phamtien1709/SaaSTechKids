@@ -38,3 +38,37 @@ body {
 .active {
     background-color: #4CAF50;
 }
+
+.question {
+    text-align: center;
+    border: 3px solid green;
+    color: #BF402F;
+}
+
+.frm-choice {
+    
+}
+
+.btn-yes {
+  border: none;
+  color: white;
+  font-size: 2em;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+  margin-left: 25px;
+  background-color: #f44336;
+}
+
+.btn-no {
+  border: none;
+  color: white;
+  font-size: 2em;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  float: right;
+  margin-right: 25px;
+  background-color: #555555;
+}

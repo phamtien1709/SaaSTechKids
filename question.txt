@@ -1,0 +1,4 @@
+{"id":0,"question":"Is Tien Pham handsome?","yes":14,"no":0},
+{"id":1,"question":"Is Tien Pham cool?","yes":4,"no":2},
+{"id":2,"question":"Play Basketball?","yes":10,"no":2},
+{"id":3,"question":"Threesome?","yes":15,"no":0}
