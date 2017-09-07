@@ -9,7 +9,7 @@ const readFileSync = (filename) => {
 };
 
 const appendFileSync = (filename, data) => {
-  return fs.appendFileSync(filename, data," utf-8 ");
+  return fs.appendFileSync(filename, data,"utf-8");
 };
 
 const getListQuestion = () => {

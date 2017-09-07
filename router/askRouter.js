@@ -16,7 +16,7 @@ Router.get('/', (req, res) => {
     question = listQuestion[Math.floor((Math.random() * listQuestion.length))];
     res.render('home', {
       question  : question.question,
-      href      : `/api/question/${question.id}`
+      href      : `/question/${question.id}/vote`
     });
   };
 });

@@ -46,7 +46,7 @@ body {
 }
 
 .frm-choice {
-    
+
 }
 
 .btn-yes {
@@ -61,6 +61,11 @@ body {
   background-color: #f44336;
 }
 
+.btn-yes:hover {
+  background-color: #BB0000;
+  transition: 0.5s;
+}
+
 .btn-no {
   border: none;
   color: white;
@@ -71,4 +76,23 @@ body {
   float: right;
   margin-right: 25px;
   background-color: #555555;
+}
+
+.btn-no:hover {
+  background-color: #333333;
+  transition: 0.5s;
+}
+
+.margin-detail {
+  margin-left: 20px;
+}
+
+.margin-p-detail {
+  margin-left: 35px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.size-pre {
+  font-size: 20px;
 }

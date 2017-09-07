@@ -1,8 +1,9 @@
 const express = require('express');
 const handlebars = require('express-handlebars');
 const bodyParser = require('body-Parser');
-const questionRouter = require('./router/questionRouter');
+const addQuestionRouter = require('./router/addQuestionRouter');
 const askRouter = require('./router/askRouter');
+const apiRouter = require('./router/apiRouter');
 const readFileRouter = require('./router/readFileRouter');
 
 
@@ -19,12 +20,16 @@ app.use('/js', express.static('js'));
 
 // get Router
 app.use('/', askRouter);
-app.use('/question', questionRouter);
+app.use('/ask', addQuestionRouter);
 app.use('/read', readFileRouter);
+app.use('/question', apiRouter);
 
 //render handlebars
 app.get('/about', (req, res) => {
   res.render('about');
+});
+app.get('/api', (req, res) => {
+  res.send('<h1>This page is useless of you!</h1>')
 });
 
 
