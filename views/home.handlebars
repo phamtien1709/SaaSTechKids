@@ -1,18 +1,7 @@
-<h1>Home page</h1>
-<form method="post" action="">
-  <label id="question"></label>
-  <input type="submit" name="yes" value="yes"/>
-  <input type="submit" name="no" value="no" />
-</form>
+<title>Home</title>
 
-<script>
-  $.ajax({
-    type  : 'get',
-    url   : '/api/question/'
-  }).done((data) => {
-    $("#question").html(data.question);
-    $("form").attr("action", "/api/question/" + data.id);
-  }).fail((err) => {
-    console.error(err);
-  });
-</script>
+<form class="text-center" action="{{href}}" method="post">
+  <label id="question">{{question}}</label>
+  <input class="" type="submit" name="choice" value="yes" style="visibility: {{visibility}}">
+  <input class="" type="submit" name="choice" value="no" style="visibility: {{visibility}}">
+</form>

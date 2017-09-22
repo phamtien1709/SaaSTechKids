@@ -1,17 +1,20 @@
 {
-  "name": "quizd",
+  "name": "homework",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "for homework only",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.1",
+    "body-parser": "^1.17.2",
+    "bootstrap": "^3.3.7",
     "express": "^4.15.4",
     "express-handlebars": "^3.0.0",
-    "mongoose": "^4.11.11"
+    "mongoose": "^4.11.12",
+    "nodemon": "^1.12.1"
   }
 }

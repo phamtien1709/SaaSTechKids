@@ -1,4 +1,4 @@
 {
-  "connectionString" : "mongodb://localhost/web8",
-  "port" : "6969"
+  "connectionString": "mongodb://localhost/web8",
+  "port": 6969
 }
