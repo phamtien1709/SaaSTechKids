@@ -1,53 +1,12 @@
-<div class="container">
-    <!-- ===========================
-    HEADER
-    ============================ -->
-    <div id="header" class="row">
-        <div>
-            <img class="propic" src="../img/kute.png" alt="">
-        </div>
-        <!-- photo end-->
-        <!-- Title -->
-        <div>
-          <h1>Tien Pham</h1>
-        </div>
-          <h2>Techkid-er</h2>
-        </div>
-        <!-- Tittle end -->
-        <!-- ===========================
-        SOCIAL & CONTACT
-        ============================ -->
-        <div>
-            <div>
-                <ul class="title-ul">
-                    <li class="title-li"><a class="title-a" href="http://techkids.vn"><span class="social"></span>Techkids.vn</a>
-                    </li>
-                    <li class="title-li"><span class="social"></span>+84 164 764 3287
-                    </li>
-                    <li class="title-li"><span class="social"></span>phamtien1709@gmail.com
-                    </li>
-                </ul>
-            </div><!-- social 1st col end-->
-
-            <div>
-                <ul class="title-ul">
-                    <li class="title-li"><a class="title-a" href=""><span class="social"></span>Facebook</a>
-                    </li>
-                    <li class="title-li"><a class="title-a" href=""><span class="social"></span>Github</a>
-                    </li>
-                    <li class="title-li"><a class="title-a" href=""><span class="social"></span>Linkedin</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-      <hr>
-  </div>
-
-  <!-- ===========================
-  FOOTER
-  =========================== -->
-  <footer>
-    <p class = "footer-tab">CV template by TP1709</p>
-  </footer>
+{{{htmlRender}}}
+<div>
+  <h1>
+    {{textDemo}}
+  </h1>
+  {{#each questionList}}
+    <h2>
+      {{id}}
+      {{question}}
+    </h2>
+  {{/each}}
+</div>

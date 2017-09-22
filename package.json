@@ -1,24 +1,17 @@
 {
-  "name": "cv",
+  "name": "quizd",
   "version": "1.0.0",
-  "description": "cv_of_tienpham",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/phamtien1709/SaaSTechKids.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/phamtien1709/SaaSTechKids/issues"
-  },
-  "homepage": "https://github.com/phamtien1709/SaaSTechKids#readme",
   "dependencies": {
-    "body-parser": "^1.17.2",
+    "body-parser": "^1.18.1",
     "express": "^4.15.4",
-    "express-handlebars": "^3.0.0"
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.11.11"
   }
 }
