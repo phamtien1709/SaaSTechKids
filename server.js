@@ -4,9 +4,9 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const config = require('./config.json');
 
-const homeRouter = require('./HomeRouter');
-const askRouter = require('./AskRouter');
-const apiRouter = require('./ApiRouter');
+const homeRouter = require('./homeRouter');
+const askRouter = require('./askRouter');
+const apiRouter = require('./apiRouter');
 const questionRouter = require('./questionRouter');
 
 let app = express();
@@ -30,7 +30,7 @@ app.use('/question', questionRouter);
 
 app.use(express.static(__dirname + '/public'));
 
-let port = process.env.PORT || config.port;
+const port = process.env.PORT || config.port;
 
 app.listen(port, function() => {
   console.log('Server is ready at port' + port);
