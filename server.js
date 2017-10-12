@@ -32,6 +32,6 @@ app.use(express.static(__dirname + '/public'));
 
 const port = process.env.PORT || config.port;
 
-app.listen(port, function() => {
+app.listen(port, () => {
   console.log('Server is ready at port' + port);
 });
