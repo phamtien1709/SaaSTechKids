@@ -1,4 +1,4 @@
 {
-  "connectionString": "mongodb://localhost/web8",
+  "connectionString": "mongodb://admin:admin@ds111124.mlab.com:11124/threewords",
   "port": 6969
 }

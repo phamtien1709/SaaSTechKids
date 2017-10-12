@@ -30,6 +30,8 @@ app.use('/question', questionRouter);
 
 app.use(express.static(__dirname + '/public'));
 
-app.listen(6969, () => {
+let port = process.env.PORT || config.port
+
+app.listen(port, () => {
   console.log('Server is ready at port', config.port);
 });
