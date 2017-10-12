@@ -9,6 +9,7 @@ const addNewQuestion = (question, callback) => {
       console.log("addNewQuestion: ", err);
     } else {
       callback(null, question);
+      console.log(question);
     }
   });
 };
