@@ -33,5 +33,5 @@ app.use(express.static(__dirname + '/public'));
 let port = process.env.PORT || config.port
 
 app.listen(port, () => {
-  console.log('Server is ready at port', config.port);
+  console.log('Server is ready at port', port);
 });
